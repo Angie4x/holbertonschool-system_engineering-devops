@@ -3,4 +3,4 @@
 # Only use ssh single-character flags, You cannot use -l,
 # You do not need to handle the case of a private key 
 # protected by a passphrase
-ssh -i ~/.ssh/school ubuntu@52.91.95.171
+ssh -i ~/.ssh/school ubuntu@54.152.57.214
