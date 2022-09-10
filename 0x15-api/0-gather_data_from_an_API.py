@@ -1,5 +1,3 @@
-
-
 #!/usr/bin/python3
 """ Python script that, using this REST API,
 for a given employee ID, returns information about his/her
@@ -32,4 +30,3 @@ if __name__ == "__main__":
 
     print('\n'.join(["\t " + item.get('title') for item in respTodos.json()
           if item.get('userId') == int(userId) and item.get('completed')]))
-          
