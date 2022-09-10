@@ -24,4 +24,3 @@ if __name__ == "__main__":
     Newdict[userId] = List
     with open("{}.json".format(userId), 'w') as Jfile:
         json.dump(Newdict, Jfile)
-        

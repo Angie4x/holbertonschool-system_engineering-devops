@@ -21,4 +21,3 @@ if __name__ == "__main__":
             if item.get('userId') == int(userId):
                 Cwrite.writerow(
                     [userId, name, item.get('completed'), item.get('title')])
-                    

@@ -23,4 +23,3 @@ if __name__ == "__main__":
         NewDictionary[user.get('id')] = tasks
         with open("todo_all_employees.json", 'w') as Jfile:
             json.dump(NewDictionary, Jfile)
-            
